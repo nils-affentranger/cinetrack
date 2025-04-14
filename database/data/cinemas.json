@@ -1,0 +1,254 @@
+[
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Balexert",
+        "location": "Genf",
+        "description": "Modernes Multiplex-Kino im Einkaufszentrum Balexert."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Dietlikon",
+        "location": "Dietlikon",
+        "description": "Großes Kino mit IMAX-Saal und vielfältigem Filmangebot."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Lausanne",
+        "location": "Lausanne",
+        "description": "Zentral gelegenes Kino mit mehreren Sälen."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Mall of Switzerland",
+        "location": "Ebikon",
+        "description": "Kino im Einkaufszentrum mit modernster Technik."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Spreitenbach",
+        "location": "Spreitenbach",
+        "description": "Großes Kino mit komfortablen Sitzen und breitem Filmangebot."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Westside",
+        "location": "Bern",
+        "description": "Kino im Westside-Komplex mit IMAX und VIP-Lounges."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Küchlin",
+        "location": "Basel",
+        "description": "Traditionsreiches Kino im Herzen von Basel."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Les Galeries",
+        "location": "Lausanne",
+        "description": "Kleines, charmantes Kino mit ausgewähltem Programm."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Flon",
+        "location": "Lausanne",
+        "description": "Modernes Kino im trendigen Flon-Viertel."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Monthey",
+        "location": "Monthey",
+        "description": "Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Arcades",
+        "location": "Genf",
+        "description": "Zentral gelegenes Kino mit vielfältigem Programm."
+    },
+    {
+        "cinema_chain": "Pathé Schweiz",
+        "name": "Pathé Rex",
+        "location": "Bern",
+        "description": "Beliebtes Kino mit moderner Ausstattung."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Zürich",
+        "location": "Zürich",
+        "description": "Großes Multiplex-Kino mit 4DX und IMAX."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Fribourg",
+        "location": "Fribourg",
+        "description": "Modernes Kino mit mehreren Sälen und aktuellem Programm."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Genève La Praille",
+        "location": "Genf",
+        "description": "Kino im Einkaufszentrum La Praille mit 4DX-Technologie."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Lugano",
+        "location": "Lugano",
+        "description": "Modernes Kino mit komfortablen Sitzen und großem Angebot."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Sihlcity",
+        "location": "Zürich",
+        "description": "Kino im Sihlcity-Komplex mit innovativer Technik."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Chur",
+        "location": "Chur",
+        "description": "Beliebtes Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Basel",
+        "location": "Basel",
+        "description": "Modernes Multiplex-Kino im Zentrum von Basel."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas St. Gallen",
+        "location": "St. Gallen",
+        "description": "Kino mit großem Saalangebot und aktuellen Filmen."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Lausanne",
+        "location": "Lausanne",
+        "description": "Modernes Kino mit komfortablen Sitzen und breitem Programm."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Winterthur",
+        "location": "Winterthur",
+        "description": "Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "Arena Cinemas",
+        "name": "Arena Cinemas Zug",
+        "location": "Zug",
+        "description": "Modernes Kino mit vielfältigem Programm."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Abaton",
+        "location": "Zürich",
+        "description": "Modernes Kino mit großem Saalangebot und Gastronomie."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Maxx",
+        "location": "Emmen",
+        "description": "Multiplex-Kino mit IMAX und 4DX."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Cinedome",
+        "location": "Muri bei Bern",
+        "description": "Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Capitol",
+        "location": "Zürich",
+        "description": "Traditionsreiches Kino im Zentrum von Zürich."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Metropol",
+        "location": "Zürich",
+        "description": "Beliebtes Kino mit modernem Ambiente."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Pathé Küchlin",
+        "location": "Basel",
+        "description": "Modernes Kino mit großem Filmangebot."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Westside",
+        "location": "Bern",
+        "description": "Kino im Westside-Komplex mit IMAX und VIP-Lounges."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Chur",
+        "location": "Chur",
+        "description": "Modernes Kino mit mehreren Sälen."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema St. Gallen",
+        "location": "St. Gallen",
+        "description": "Kino mit großem Saalangebot und aktuellen Filmen."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Winterthur",
+        "location": "Winterthur",
+        "description": "Modernes Kino mit vielfältigem Programm."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Luzern",
+        "location": "Luzern",
+        "description": "Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Bern",
+        "location": "Bern",
+        "description": "Beliebtes Kino im Zentrum von Bern."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Zug",
+        "location": "Zug",
+        "description": "Modernes Kino mit komfortablen Sitzen."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Lausanne",
+        "location": "Lausanne",
+        "description": "Kino mit großem Saalangebot und aktuellem Programm."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Locarno",
+        "location": "Locarno",
+        "description": "Modernes Kino mit mehreren Sälen."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Fribourg",
+        "location": "Fribourg",
+        "description": "Kino mit vielfältigem Filmangebot."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Sihlcity",
+        "location": "Zürich",
+        "description": "Kino im Sihlcity-Komplex mit modernster Technik."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Monthey",
+        "location": "Monthey",
+        "description": "Modernes Kino mit aktuellem Filmangebot."
+    },
+    {
+        "cinema_chain": "blue Cinema",
+        "name": "blue Cinema Lugano",
+        "location": "Lugano",
+        "description": "Kino mit mehreren Sälen und breitem Programm."
+    }
+]

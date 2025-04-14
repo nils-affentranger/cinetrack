@@ -1,0 +1,422 @@
+[
+    {
+        "cinema": "Pathé Balexert",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit riesiger Leinwand und modernem Soundsystem."
+    },
+    {
+        "cinema": "Pathé Balexert",
+        "name": "Saal 2",
+        "description": "Komfortabler Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Pathé Dietlikon",
+        "name": "Saal 1",
+        "description": "4DX-Saal für ein immersives Filmerlebnis."
+    },
+    {
+        "cinema": "Pathé Dietlikon",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Pathé Lausanne",
+        "name": "Saal 1",
+        "description": "Großer Saal mit VIP-Bereich."
+    },
+    {
+        "cinema": "Pathé Lausanne",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit bequemen Sitzen."
+    },
+    {
+        "cinema": "Pathé Mall of Switzerland",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit modernster Projektion."
+    },
+    {
+        "cinema": "Pathé Mall of Switzerland",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Pathé Spreitenbach",
+        "name": "Saal 1",
+        "description": "VIP-Saal mit Ledersitzen."
+    },
+    {
+        "cinema": "Pathé Spreitenbach",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Pathé Westside",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit riesiger Leinwand."
+    },
+    {
+        "cinema": "Pathé Westside",
+        "name": "Saal 2",
+        "description": "VIP-Lounge mit exklusivem Service."
+    },
+    {
+        "cinema": "Pathé Küchlin",
+        "name": "Saal 1",
+        "description": "Traditioneller Saal mit moderner Technik."
+    },
+    {
+        "cinema": "Pathé Küchlin",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Pathé Les Galeries",
+        "name": "Saal 1",
+        "description": "Kleiner Saal mit ausgewähltem Programm."
+    },
+    {
+        "cinema": "Pathé Les Galeries",
+        "name": "Saal 2",
+        "description": "Gemütlicher Saal für Arthouse-Filme."
+    },
+    {
+        "cinema": "Pathé Flon",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit Dolby Atmos."
+    },
+    {
+        "cinema": "Pathé Flon",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Pathé Monthey",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "Pathé Monthey",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit bequemen Sitzen."
+    },
+    {
+        "cinema": "Pathé Arcades",
+        "name": "Saal 1",
+        "description": "Zentral gelegener Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Pathé Arcades",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Pathé Rex",
+        "name": "Saal 1",
+        "description": "Beliebter Saal mit moderner Ausstattung."
+    },
+    {
+        "cinema": "Pathé Rex",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Zürich",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit modernster Projektion."
+    },
+    {
+        "cinema": "Arena Cinemas Zürich",
+        "name": "Saal 2",
+        "description": "4DX-Saal mit Spezialeffekten."
+    },
+    {
+        "cinema": "Arena Cinemas Fribourg",
+        "name": "Saal 1",
+        "description": "Standard-Saal mit bequemen Sitzen."
+    },
+    {
+        "cinema": "Arena Cinemas Fribourg",
+        "name": "Saal 2",
+        "description": "Dolby Atmos-Saal für besten Klang."
+    },
+    {
+        "cinema": "Arena Cinemas Genève La Praille",
+        "name": "Saal 1",
+        "description": "4DX-Saal mit beweglichen Sitzen."
+    },
+    {
+        "cinema": "Arena Cinemas Genève La Praille",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Lugano",
+        "name": "Saal 1",
+        "description": "Komfortabler Saal mit großem Angebot."
+    },
+    {
+        "cinema": "Arena Cinemas Lugano",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Arena Cinemas Sihlcity",
+        "name": "Saal 1",
+        "description": "Innovativer Saal mit modernster Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Sihlcity",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Chur",
+        "name": "Saal 1",
+        "description": "Beliebter Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "Arena Cinemas Chur",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit bequemen Sitzen."
+    },
+    {
+        "cinema": "Arena Cinemas Basel",
+        "name": "Saal 1",
+        "description": "Multiplex-Saal mit moderner Ausstattung."
+    },
+    {
+        "cinema": "Arena Cinemas Basel",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Arena Cinemas St. Gallen",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "Arena Cinemas St. Gallen",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Lausanne",
+        "name": "Saal 1",
+        "description": "Komfortabler Saal mit breitem Programm."
+    },
+    {
+        "cinema": "Arena Cinemas Lausanne",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "Arena Cinemas Winterthur",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "Arena Cinemas Winterthur",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "Arena Cinemas Zug",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit vielfältigem Programm."
+    },
+    {
+        "cinema": "Arena Cinemas Zug",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Abaton",
+        "name": "Saal 1",
+        "description": "Großer Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Abaton",
+        "name": "Saal 2",
+        "description": "VIP-Saal mit exklusivem Service."
+    },
+    {
+        "cinema": "blue Cinema Maxx",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit beeindruckender Bildqualität."
+    },
+    {
+        "cinema": "blue Cinema Maxx",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Cinedome",
+        "name": "Saal 1",
+        "description": "Multiplex-Saal mit modernem Soundsystem."
+    },
+    {
+        "cinema": "blue Cinema Cinedome",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Capitol",
+        "name": "Saal 1",
+        "description": "Traditioneller Saal im Zentrum von Zürich."
+    },
+    {
+        "cinema": "blue Cinema Capitol",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Metropol",
+        "name": "Saal 1",
+        "description": "Beliebter Saal mit modernem Ambiente."
+    },
+    {
+        "cinema": "blue Cinema Metropol",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Pathé Küchlin",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "blue Cinema Pathé Küchlin",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Westside",
+        "name": "Saal 1",
+        "description": "IMAX-Saal mit VIP-Lounge."
+    },
+    {
+        "cinema": "blue Cinema Westside",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Chur",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit mehreren Sälen."
+    },
+    {
+        "cinema": "blue Cinema Chur",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema St. Gallen",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "blue Cinema St. Gallen",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Winterthur",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit vielfältigem Programm."
+    },
+    {
+        "cinema": "blue Cinema Winterthur",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Luzern",
+        "name": "Saal 1",
+        "description": "Kino mit mehreren Sälen und aktuellem Filmangebot."
+    },
+    {
+        "cinema": "blue Cinema Luzern",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Bern",
+        "name": "Saal 1",
+        "description": "Beliebtes Kino im Zentrum von Bern."
+    },
+    {
+        "cinema": "blue Cinema Bern",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Zug",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit komfortablen Sitzen."
+    },
+    {
+        "cinema": "blue Cinema Zug",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Lausanne",
+        "name": "Saal 1",
+        "description": "Großer Saal mit aktuellem Programm."
+    },
+    {
+        "cinema": "blue Cinema Lausanne",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Locarno",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit mehreren Sälen."
+    },
+    {
+        "cinema": "blue Cinema Locarno",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Fribourg",
+        "name": "Saal 1",
+        "description": "Kino mit vielfältigem Filmangebot."
+    },
+    {
+        "cinema": "blue Cinema Fribourg",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Sihlcity",
+        "name": "Saal 1",
+        "description": "Kino im Sihlcity-Komplex mit modernster Technik."
+    },
+    {
+        "cinema": "blue Cinema Sihlcity",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    },
+    {
+        "cinema": "blue Cinema Monthey",
+        "name": "Saal 1",
+        "description": "Modernes Kino mit aktuellem Filmangebot."
+    },
+    {
+        "cinema": "blue Cinema Monthey",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit Dolby Atmos."
+    },
+    {
+        "cinema": "blue Cinema Lugano",
+        "name": "Saal 1",
+        "description": "Kino mit mehreren Sälen und breitem Programm."
+    },
+    {
+        "cinema": "blue Cinema Lugano",
+        "name": "Saal 2",
+        "description": "Standard-Saal mit 3D-Technik."
+    }
+]

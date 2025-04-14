@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Pathé Schweiz",
+        "description": "Einer der größten Kinobetreiber der Schweiz mit Standorten in mehreren Städten und einem breiten Filmangebot."
+    },
+    {
+        "name": "Arena Cinemas",
+        "description": "Bekannte Schweizer Kinokette mit modernen Sälen und innovativer Technik für ein besonderes Filmerlebnis."
+    },
+    {
+        "name": "blue Cinema",
+        "description": "Schweizer Kinokette mit zahlreichen Standorten und einem vielfältigen Programm für alle Altersgruppen."
+    }
+]

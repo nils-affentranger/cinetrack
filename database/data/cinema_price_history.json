@@ -1,0 +1,254 @@
+[
+    {
+        "cinema": "Pathé Balexert",
+        "base_price": 18.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Dietlikon",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Lausanne",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Mall of Switzerland",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Spreitenbach",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Westside",
+        "base_price": 19.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Küchlin",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Les Galeries",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Flon",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Monthey",
+        "base_price": 16.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Arcades",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Pathé Rex",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Zürich",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Fribourg",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Genève La Praille",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Lugano",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Sihlcity",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Chur",
+        "base_price": 16.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Basel",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas St. Gallen",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Lausanne",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Winterthur",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "Arena Cinemas Zug",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Abaton",
+        "base_price": 18.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Maxx",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Cinedome",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Capitol",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Metropol",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Pathé Küchlin",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Westside",
+        "base_price": 19.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Chur",
+        "base_price": 16.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema St. Gallen",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Winterthur",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Luzern",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Bern",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Zug",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Lausanne",
+        "base_price": 17.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Locarno",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Fribourg",
+        "base_price": 16.50,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Sihlcity",
+        "base_price": 18.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Monthey",
+        "base_price": 16.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    },
+    {
+        "cinema": "blue Cinema Lugano",
+        "base_price": 17.00,
+        "effective_from": "2024-01-01",
+        "effective_to": null
+    }
+]

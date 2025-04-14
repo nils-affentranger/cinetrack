@@ -1,0 +1,26 @@
+[
+    {
+        "name": "IMAX",
+        "description": "Großformatiges Kinoerlebnis mit besonders scharfem Bild und beeindruckendem Sound."
+    },
+    {
+        "name": "4DX",
+        "description": "Kino mit beweglichen Sitzen, Wind-, Wasser- und Lichteffekten für ein immersives Erlebnis."
+    },
+    {
+        "name": "Dolby Atmos",
+        "description": "Modernes Soundsystem mit dreidimensionalem Klang für ein intensives Hörerlebnis."
+    },
+    {
+        "name": "3D",
+        "description": "Filme mit dreidimensionaler Bildtechnik für ein plastisches Seherlebnis."
+    },
+    {
+        "name": "VIP",
+        "description": "Exklusive Kinosäle mit besonders komfortablen Sitzen und erweitertem Service."
+    },
+    {
+        "name": "Original Version (OV)",
+        "description": "Filme in der Originalsprache, oft mit Untertiteln."
+    }
+]

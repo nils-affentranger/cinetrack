@@ -1,0 +1,290 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "tmdb_id": "278",
+        "poster_path": null,
+        "runtime": 142
+    },
+    {
+        "title": "The Godfather",
+        "tmdb_id": "238",
+        "poster_path": null,
+        "runtime": 175
+    },
+    {
+        "title": "The Dark Knight",
+        "tmdb_id": "155",
+        "poster_path": null,
+        "runtime": 152
+    },
+    {
+        "title": "Pulp Fiction",
+        "tmdb_id": "680",
+        "poster_path": null,
+        "runtime": 154
+    },
+    {
+        "title": "Forrest Gump",
+        "tmdb_id": "13",
+        "poster_path": null,
+        "runtime": 142
+    },
+    {
+        "title": "Inception",
+        "tmdb_id": "27205",
+        "poster_path": null,
+        "runtime": 148
+    },
+    {
+        "title": "Fight Club",
+        "tmdb_id": "550",
+        "poster_path": null,
+        "runtime": 139
+    },
+    {
+        "title": "The Matrix",
+        "tmdb_id": "603",
+        "poster_path": null,
+        "runtime": 136
+    },
+    {
+        "title": "Goodfellas",
+        "tmdb_id": "769",
+        "poster_path": null,
+        "runtime": 146
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "tmdb_id": "122",
+        "poster_path": null,
+        "runtime": 201
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "tmdb_id": "120",
+        "poster_path": null,
+        "runtime": 178
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "tmdb_id": "121",
+        "poster_path": null,
+        "runtime": 179
+    },
+    {
+        "title": "Interstellar",
+        "tmdb_id": "157336",
+        "poster_path": null,
+        "runtime": 169
+    },
+    {
+        "title": "Se7en",
+        "tmdb_id": "807",
+        "poster_path": null,
+        "runtime": 127
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "tmdb_id": "274",
+        "poster_path": null,
+        "runtime": 119
+    },
+    {
+        "title": "Saving Private Ryan",
+        "tmdb_id": "857",
+        "poster_path": null,
+        "runtime": 169
+    },
+    {
+        "title": "The Green Mile",
+        "tmdb_id": "497",
+        "poster_path": null,
+        "runtime": 189
+    },
+    {
+        "title": "Gladiator",
+        "tmdb_id": "98",
+        "poster_path": null,
+        "runtime": 155
+    },
+    {
+        "title": "The Prestige",
+        "tmdb_id": "1124",
+        "poster_path": null,
+        "runtime": 130
+    },
+    {
+        "title": "The Departed",
+        "tmdb_id": "1422",
+        "poster_path": null,
+        "runtime": 151
+    },
+    {
+        "title": "Whiplash",
+        "tmdb_id": "244786",
+        "poster_path": null,
+        "runtime": 107
+    },
+    {
+        "title": "The Intouchables",
+        "tmdb_id": "77338",
+        "poster_path": null,
+        "runtime": 112
+    },
+    {
+        "title": "Parasite",
+        "tmdb_id": "496243",
+        "poster_path": null,
+        "runtime": 133
+    },
+    {
+        "title": "Joker",
+        "tmdb_id": "475557",
+        "poster_path": null,
+        "runtime": 122
+    },
+    {
+        "title": "Avengers: Endgame",
+        "tmdb_id": "299534",
+        "poster_path": null,
+        "runtime": 181
+    },
+    {
+        "title": "The Lion King",
+        "tmdb_id": "8587",
+        "poster_path": null,
+        "runtime": 89
+    },
+    {
+        "title": "The Usual Suspects",
+        "tmdb_id": "629",
+        "poster_path": null,
+        "runtime": 106
+    },
+    {
+        "title": "Léon: The Professional",
+        "tmdb_id": "101",
+        "poster_path": null,
+        "runtime": 110
+    },
+    {
+        "title": "Back to the Future",
+        "tmdb_id": "105",
+        "poster_path": null,
+        "runtime": 116
+    },
+    {
+        "title": "The Pianist",
+        "tmdb_id": "423",
+        "poster_path": null,
+        "runtime": 150
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "tmdb_id": "280",
+        "poster_path": null,
+        "runtime": 137
+    },
+    {
+        "title": "American History X",
+        "tmdb_id": "73",
+        "poster_path": null,
+        "runtime": 119
+    },
+    {
+        "title": "Spirited Away",
+        "tmdb_id": "129",
+        "poster_path": null,
+        "runtime": 125
+    },
+    {
+        "title": "City of God",
+        "tmdb_id": "598",
+        "poster_path": null,
+        "runtime": 130
+    },
+    {
+        "title": "The Lives of Others",
+        "tmdb_id": "582",
+        "poster_path": null,
+        "runtime": 137
+    },
+    {
+        "title": "The Great Dictator",
+        "tmdb_id": "914",
+        "poster_path": null,
+        "runtime": 125
+    },
+    {
+        "title": "Cinema Paradiso",
+        "tmdb_id": "11216",
+        "poster_path": null,
+        "runtime": 155
+    },
+    {
+        "title": "Grave of the Fireflies",
+        "tmdb_id": "12477",
+        "poster_path": null,
+        "runtime": 89
+    },
+    {
+        "title": "Oldboy",
+        "tmdb_id": "670",
+        "poster_path": null,
+        "runtime": 120
+    },
+    {
+        "title": "Once Upon a Time in the West",
+        "tmdb_id": "335",
+        "poster_path": null,
+        "runtime": 166
+    },
+    {
+        "title": "Alien",
+        "tmdb_id": "348",
+        "poster_path": null,
+        "runtime": 117
+    },
+    {
+        "title": "Memento",
+        "tmdb_id": "77",
+        "poster_path": null,
+        "runtime": 113
+    },
+    {
+        "title": "Apocalypse Now",
+        "tmdb_id": "28",
+        "poster_path": null,
+        "runtime": 147
+    },
+    {
+        "title": "The Shining",
+        "tmdb_id": "694",
+        "poster_path": null,
+        "runtime": 146
+    },
+    {
+        "title": "Paths of Glory",
+        "tmdb_id": "975",
+        "poster_path": null,
+        "runtime": 88
+    },
+    {
+        "title": "WALL·E",
+        "tmdb_id": "10681",
+        "poster_path": null,
+        "runtime": 98
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "tmdb_id": "106646",
+        "poster_path": null,
+        "runtime": 180
+    },
+    {
+        "title": "The Truman Show",
+        "tmdb_id": "37165",
+        "poster_path": null,
+        "runtime": 103
+    }
+]
