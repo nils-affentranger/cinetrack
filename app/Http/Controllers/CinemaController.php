@@ -75,24 +75,10 @@ class CinemaController extends Controller
      */
     public function destroy(Cinema $cinema)
     {
-        // Check if the cinema is in use by any auditoriums
-        if ($cinema->auditoriums()->exists()) {
-            return response()->json([
-                'message' => 'This cinema has associated auditoriums and cannot be deleted.  Please remove the auditoriums first.',
-            ], Response::HTTP_CONFLICT);
-        }
-
         // Check if the cinema is in use by any visits
         if ($cinema->visits()->exists()) {
             return response()->json([
                 'message' => 'This cinema has associated visits and cannot be deleted.  Please remove the visits first.',
-            ], Response::HTTP_CONFLICT);
-        }
-
-        // Check if the cinema is in use by any price history entries
-        if ($cinema->cinemaPriceHistory()->exists()) {
-            return response()->json([
-                'message' => 'This cinema is in use by price history and cannot be deleted. Remove dependencies first.',
             ], Response::HTTP_CONFLICT);
         }
 

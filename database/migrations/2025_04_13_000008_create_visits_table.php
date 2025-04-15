@@ -12,10 +12,10 @@ return new class extends Migration {
     {
         Schema::create('visits', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('movie_id')->constrained('movies');
-            $table->foreignId('cinema_id')->constrained('cinemas');
-            $table->foreignId('auditorium_id')->constrained('auditoriums');
-            $table->foreignId('type_id')->constrained('types');
+            $table->foreignId('movie_id')->constrained('movies')->restrictOnDelete();
+            $table->foreignId('cinema_id')->constrained('cinemas')->restrictOnDelete();
+            $table->foreignId('auditorium_id')->constrained('auditoriums')->restrictOnDelete();
+            $table->foreignId('type_id')->constrained('types')->restrictOnDelete();
             $table->dateTime('visit_date');
             $table->string('row');
             $table->string('seat');
