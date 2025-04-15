@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Auditorium;
 use App\Models\Cinema;
 use App\Models\Movie;
-use App\Models\TicketType;
+use App\Models\Type;
 use App\Models\Visit;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
@@ -28,10 +28,10 @@ class VisitSeeder extends Seeder
             $auditorium = Auditorium::where('name', $obj->auditorium)
                 ->where('cinema_id', $cinema->id ?? 0)
                 ->first();
-            $ticketType = TicketType::where('name', $obj->ticket_type)->first();
+            $type = Type::where('name', $obj->type)->first();
 
-            if (!$movie || !$cinema || !$auditorium || !$ticketType) {
-                $this->command->info("Skipping visit:  Missing movie, cinema, auditorium, or ticket type.");
+            if (!$movie || !$cinema || !$auditorium || !$type) {
+                $this->command->info("Skipping visit:  Missing movie, cinema, auditorium, or type.");
                 continue;
             }
 
@@ -39,7 +39,7 @@ class VisitSeeder extends Seeder
                 'movie_id' => $movie->id,
                 'cinema_id' => $cinema->id,
                 'auditorium_id' => $auditorium->id,
-                'ticket_type_id' => $ticketType->id,
+                'type_id' => $type->id,
                 'visit_date' => $obj->visit_date,
                 'row' => $obj->row,
                 'seat' => $obj->seat,

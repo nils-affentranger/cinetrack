@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->foreignId('movie_id')->constrained('movies');
             $table->foreignId('cinema_id')->constrained('cinemas');
             $table->foreignId('auditorium_id')->constrained('auditoriums');
-            $table->foreignId('ticket_type_id')->constrained('ticket_types');
+            $table->foreignId('type_id')->constrained('types');
             $table->dateTime('visit_date');
             $table->string('row');
             $table->string('seat');

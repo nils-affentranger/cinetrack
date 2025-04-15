@@ -1,42 +1,42 @@
 [
     {
         "cinema_chain": "Pathé Schweiz",
-        "ticket_type": "IMAX",
+        "type": "IMAX",
         "surcharge": 3.00,
         "effective_from": "2024-01-01",
         "effective_to": null
     },
     {
         "cinema_chain": "Pathé Schweiz",
-        "ticket_type": "4DX",
+        "type": "4DX",
         "surcharge": 2.50,
         "effective_from": "2024-01-01",
         "effective_to": null
     },
     {
         "cinema_chain": "Arena Cinemas",
-        "ticket_type": "4DX",
+        "type": "4DX",
         "surcharge": 2.00,
         "effective_from": "2024-01-01",
         "effective_to": null
     },
     {
         "cinema_chain": "Arena Cinemas",
-        "ticket_type": "VIP",
+        "type": "VIP",
         "surcharge": 4.00,
         "effective_from": "2024-01-01",
         "effective_to": null
     },
     {
         "cinema_chain": "blue Cinema",
-        "ticket_type": "Dolby Atmos",
+        "type": "Dolby Atmos",
         "surcharge": 1.50,
         "effective_from": "2024-01-01",
         "effective_to": null
     },
     {
         "cinema_chain": "blue Cinema",
-        "ticket_type": "3D",
+        "type": "3D",
         "surcharge": 2.00,
         "effective_from": "2024-01-01",
         "effective_to": null

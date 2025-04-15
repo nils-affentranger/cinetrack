@@ -2,18 +2,15 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class CinemaTicketTypePrice extends Model
+class CinemaTypePrice extends Model
 {
-    use HasFactory;
-
-    protected $table = 'cinema_ticket_type_prices';
+    protected $table = 'cinema_type_prices';
 
     protected $fillable = [
         'cinema_chain_id',
-        'ticket_type_id',
+        'type_id',
         'surcharge',
         'effective_from',
         'effective_to',
@@ -24,7 +21,7 @@ class CinemaTicketTypePrice extends Model
         return $this->belongsTo(CinemaChain::class);
     }
 
-    public function ticketType()
+    public function type()
     {
         return $this->belongsTo(TicketType::class);
     }

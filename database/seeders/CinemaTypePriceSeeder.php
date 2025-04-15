@@ -3,12 +3,12 @@
 namespace Database\Seeders;
 
 use App\Models\CinemaChain;
-use App\Models\CinemaTicketTypePrice;
-use App\Models\TicketType;
+use App\Models\CinemaTypePrice;
+use App\Models\Type;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
-class CinemaTicketTypePriceSeeder extends Seeder
+class CinemaTypePriceSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,21 +17,21 @@ class CinemaTicketTypePriceSeeder extends Seeder
      */
     public function run()
     {
-        $json = File::get("database/data/cinema_ticket_type_prices.json");
+        $json = File::get("database/data/cinema_type_prices.json");
         $data = json_decode($json);
 
         foreach ($data as $obj) {
             $cinemaChain = CinemaChain::where('name', $obj->cinema_chain)->first();
-            $ticketType = TicketType::where('name', $obj->ticket_type)->first();
+            $type = Type::where('name', $obj->type)->first();
 
-            if (!$cinemaChain || !$ticketType) {
+            if (!$cinemaChain || !$type) {
                 $this->command->info("Skipping price: Cinema Chain {$obj->cinema_chain} or Ticket Type {$obj->ticket_type} not found.");
                 continue;
             }
 
-            CinemaTicketTypePrice::create([
+            CinemaTypePrice::create([
                 'cinema_chain_id' => $cinemaChain->id,
-                'ticket_type_id' => $ticketType->id,
+                'type_id' => $type->id,
                 'surcharge' => $obj->surcharge,
                 'effective_from' => $obj->effective_from,
                 'effective_to' => $obj->effective_to,

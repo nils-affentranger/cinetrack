@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\TicketType;
+use App\Models\Type;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
-class TicketTypeSeeder extends Seeder
+class TypeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,11 +15,11 @@ class TicketTypeSeeder extends Seeder
      */
     public function run()
     {
-        $json = File::get("database/data/ticket_types.json");
+        $json = File::get("database/data/types.json");
         $data = json_decode($json);
 
         foreach ($data as $obj) {
-            TicketType::create([
+            Type::create([
                 'name' => $obj->name,
                 'description' => $obj->description,
             ]);

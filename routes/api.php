@@ -4,9 +4,9 @@ use App\Http\Controllers\AuditoriumController;
 use App\Http\Controllers\CinemaChainController;
 use App\Http\Controllers\CinemaController;
 use App\Http\Controllers\CinemaPriceHistoryController;
-use App\Http\Controllers\CinemaTicketTypePriceController;
+use App\Http\Controllers\CinemaTypePriceController;
 use App\Http\Controllers\MovieController;
-use App\Http\Controllers\TicketTypeController;
+use App\Http\Controllers\TypeController;
 use App\Http\Controllers\VisitController;
 use Illuminate\Support\Facades\Route;
 
@@ -35,7 +35,7 @@ Route::post('/movies/{movie}/upload-poster', [MovieController::class, 'uploadPos
 Route::apiResource('movies', MovieController::class);
 
 // Ticket Type Routes
-Route::apiResource('ticket-types', TicketTypeController::class);
+Route::apiResource('types', TypeController::class);
 
 // Visit Routes
 Route::apiResource('visits', VisitController::class);
@@ -44,7 +44,7 @@ Route::apiResource('visits', VisitController::class);
 Route::apiResource('cinema-price-history', CinemaPriceHistoryController::class);
 
 // Cinema Ticket Type Price Routes
-Route::apiResource('cinema-ticket-type-prices', CinemaTicketTypePriceController::class);
+Route::apiResource('cinema-type-prices', CinemaTypePriceController::class);
 
 // Route binding
 Route::bind('cinema', function ($value) {
@@ -63,8 +63,8 @@ Route::bind('cinemaPriceHistory', function ($value) {
     return App\Models\CinemaPriceHistory::where('id', $value)->first() ?? abort(404);
 });
 
-Route::bind('ticketType', function ($value) {
-    return App\Models\TicketType::where('id', $value)->first() ?? abort(404);
+Route::bind('type', function ($value) {
+    return App\Models\Type::where('id', $value)->first() ?? abort(404);
 });
 
 Route::bind('visit', function ($value) {
@@ -75,6 +75,6 @@ Route::bind('cinemaChain', function ($value) {
     return App\Models\CinemaChain::where('id', $value)->first() ?? abort(404);
 });
 
-Route::bind('cinemaTicketTypePrice', function ($value) {
-    return App\Models\CinemaTicketTypePrice::where('id', $value)->first() ?? abort(404);
+Route::bind('cinemaTypePrice', function ($value) {
+    return App\Models\CinemaTypePrice::where('id', $value)->first() ?? abort(404);
 });

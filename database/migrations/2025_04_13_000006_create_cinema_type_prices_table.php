@@ -10,10 +10,10 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('cinema_ticket_type_prices', function (Blueprint $table) {
+        Schema::create('cinema_type_prices', function (Blueprint $table) {
             $table->id();
             $table->foreignId('cinema_chain_id')->constrained('cinema_chains')->cascadeOnDelete();
-            $table->foreignId('ticket_type_id')->constrained('ticket_types')->cascadeOnDelete();
+            $table->foreignId('type_id')->constrained('types')->cascadeOnDelete();
             $table->decimal('surcharge');
             $table->date('effective_from');
             $table->date('effective_to')->nullable();
@@ -26,6 +26,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('cinema_ticket_type_prices');
+        Schema::dropIfExists('cinema_type_prices');
     }
 };

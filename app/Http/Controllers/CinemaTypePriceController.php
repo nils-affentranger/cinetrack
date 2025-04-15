@@ -2,86 +2,86 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CinemaTicketTypePrice;
+use App\Models\CinemaTypePrice;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class CinemaTicketTypePriceController extends Controller
+class CinemaTypePriceController extends Controller
 {
     /**
-     * Display a listing of the cinema ticket type prices.
+     * Display a listing of the cinema type prices.
      */
     public function index()
     {
-        $prices = CinemaTicketTypePrice::all();
+        $prices = CinemaTypePrice::all();
 
         return response()->json(['data' => $prices], Response::HTTP_OK);
     }
 
     /**
-     * Store a newly created cinema ticket type price in storage.
+     * Store a newly created cinema type price in storage.
      */
     public function store(Request $request)
     {
         $validated = $request->validate([
             'cinema_chain_id' => 'required|exists:cinema_chains,id',
-            'ticket_type_id' => 'required|exists:ticket_types,id',
+            'type_id' => 'required|exists:types,id',
             'surcharge' => 'required|numeric|min:0',
             'effective_from' => 'required|date',
             'effective_to' => 'nullable|date|after_or_equal:effective_from',
         ]);
 
-        $price = CinemaTicketTypePrice::create($validated);
+        $price = CinemaTypePrice::create($validated);
 
         return response()->json(['data' => $price], Response::HTTP_CREATED);
     }
 
     /**
-     * Display the specified cinema ticket type price.
+     * Display the specified cinema type price.
      */
-    public function show(CinemaTicketTypePrice $cinemaTicketTypePrice)
+    public function show(CinemaTypePrice $cinemaTypePrice)
     {
-        return response()->json(['data' => $cinemaTicketTypePrice], Response::HTTP_OK);
+        return response()->json(['data' => $cinemaTypePrice], Response::HTTP_OK);
     }
 
     /**
-     * Update the specified cinema ticket type price in storage.
+     * Update the specified cinema type price in storage.
      */
-    public function update(Request $request, CinemaTicketTypePrice $cinemaTicketTypePrice)
+    public function update(Request $request, CinemaTypePrice $cinemaTypePrice)
     {
         $validated = $request->validate([
             'cinema_chain_id' => 'sometimes|required|exists:cinema_chains,id',
-            'ticket_type_id' => 'sometimes|required|exists:ticket_types,id',
+            'type_id' => 'sometimes|required|exists:types,id',
             'surcharge' => 'sometimes|required|numeric|min:0',
             'effective_from' => 'sometimes|required|date',
             'effective_to' => 'nullable|date|after_or_equal:effective_from',
         ]);
 
-        $cinemaTicketTypePrice->update($validated);
+        $cinemaTypePrice->update($validated);
 
-        return response()->json(['data' => $cinemaTicketTypePrice], Response::HTTP_OK);
+        return response()->json(['data' => $cinemaTypePrice], Response::HTTP_OK);
     }
 
     /**
-     * Remove the specified cinema ticket type price from storage.
+     * Remove the specified cinema type price from storage.
      */
-    public function destroy(CinemaTicketTypePrice $cinemaTicketTypePrice)
+    public function destroy(CinemaTypePrice $cinemaTypePrice)
     {
-        $cinemaTicketTypePrice->delete();
+        $cinemaTypePrice->delete();
 
         return response()->json(['message' => 'Price deleted successfully.'], Response::HTTP_OK);
     }
 
     /**
-     * Get prices for a specific cinema chain and ticket type.
+     * Get prices for a specific cinema chain and type.
      */
-    public function getByChainAndType($cinemaChainId, $ticketTypeId)
+    public function getByChainAndType($cinemaChainId, $typeId)
     {
-        $prices = CinemaTicketTypePrice::where(
+        $prices = CinemaTypePrice::where(
             'cinema_chain_id',
             $cinemaChainId
         )
-            ->where('ticket_type_id', $ticketTypeId)
+            ->where('type_id', $typeId)
             ->get();
 
         return response()->json(['data' => $prices], Response::HTTP_OK);

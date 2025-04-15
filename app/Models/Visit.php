@@ -2,20 +2,17 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Visit extends Model
 {
-    use HasFactory;
-
     protected $table = 'visits';
 
     protected $fillable = [
         'movie_id',
         'cinema_id',
         'auditorium_id',
-        'ticket_type_id',
+        'type_id',
         'visit_date',
         'row',
         'seat',
@@ -37,8 +34,8 @@ class Visit extends Model
         return $this->belongsTo(Auditorium::class);
     }
 
-    public function ticketType()
+    public function type()
     {
-        return $this->belongsTo(TicketType::class);
+        return $this->belongsTo(Type::class);
     }
 }
