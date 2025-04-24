@@ -25,7 +25,7 @@ class AuditoriumController extends Controller
     public function store(Request $request, Cinema $cinema)
     {
         $validated = $request->validate([
-            'name' => 'required|string|max:255',
+            'name' => 'required|unique:auditoriums|string|max:255',
             'description' => 'nullable|string',
         ]);
 
@@ -54,7 +54,7 @@ class AuditoriumController extends Controller
     public function update(Request $request, Cinema $cinema, Auditorium $auditorium)
     {
         $validated = $request->validate([
-            'name' => 'sometimes|required|string|max:255',
+            'name' => 'sometimes|required|unique:auditoriums|string|max:255',
             'description' => 'nullable|string',
         ]);
 
@@ -102,7 +102,7 @@ class AuditoriumController extends Controller
         $results = $auditoriums->map(function ($auditorium) {
             return [
                 'id' => $auditorium->id,
-                'name' => $auditorium->name, //  Use 'name' for display
+                'name' => $auditorium->name,
                 'description' => $auditorium->description,
             ];
         });
