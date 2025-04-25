@@ -1,0 +1,17 @@
+.git
+.github
+.env
+.env.example
+.phpunit.result.cache
+docker/
+docker-compose.yml
+node_modules/
+public/build/
+storage/framework/cache/data/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/
+storage/logs/
+vendor/
+npm-debug.log
+yarn-error.log
